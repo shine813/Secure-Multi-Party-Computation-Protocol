@@ -138,6 +138,8 @@ assert secret_key.decrypt(n1 <= n2) == 0
 assert secret_key.decrypt(n2 <= n1) == 1
 ```
 
+详见`example.py`。
+
 ---
 
 ## 项目测试
@@ -383,6 +385,8 @@ class SMPCPTest(unittest.TestCase):
         # 整数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.int1 <= self.int2 else 0, secret_key.decrypt(self.int_n1 <= self.int_n2))
 ```
+
+详见`test_case/test_smpcp.py`。
 
 ---
 
