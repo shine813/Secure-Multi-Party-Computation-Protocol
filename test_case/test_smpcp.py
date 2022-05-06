@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-Author: Zhan Shi
-Time  : 2022/5/4 15:54
+@Version: 0.0.1
+@Project: Secure-Multi-Party-Computation-Protocol
+@Author: Zhan Shi
+@Time  : 2022/5/4 15:54
+@File: test_smpcp.py
+@License: MIT
 """
 import random
 import sys
@@ -186,7 +190,7 @@ class SMPCPTest(unittest.TestCase):
         """
         安全相等协议
         """
-        # 浮点数相等测试：经经过测试，极少数情况下，浮点数会影响结果
+        # 浮点数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.float1 == self.float1 else 0,
                          secret_key.decrypt(self.float_n1 == self.float_n1.decode()))
 
@@ -211,10 +215,10 @@ class SMPCPTest(unittest.TestCase):
         """
         安全大于协议
         """
-        # 浮点数相等测试：经过测试，无明显问题
+        # 浮点数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.float1 > self.float2 else 0, secret_key.decrypt(self.float_n1 > self.float_n2))
 
-        # 整数相等测试：经过测试，无明显问题
+        # 整数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.int1 > self.int2 else 0, secret_key.decrypt(self.int_n1 > self.int_n2))
 
     # TODO 安全大于等于协议测试
@@ -223,10 +227,10 @@ class SMPCPTest(unittest.TestCase):
         """
         安全大于等于协议
         """
-        # 浮点数相等测试：经过测试，无明显问题
+        # 浮点数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.float1 >= self.float2 else 0, secret_key.decrypt(self.float_n1 >= self.float_n2))
 
-        # 整数相等测试：经过测试，无明显问题
+        # 整数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.int1 >= self.int2 else 0, secret_key.decrypt(self.int_n1 >= self.int_n2))
 
     # TODO 安全小于协议测试
@@ -235,10 +239,10 @@ class SMPCPTest(unittest.TestCase):
         """
         安全小于协议
         """
-        # 浮点数相等测试：经过测试，无明显问题
+        # 浮点数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.float1 < self.float2 else 0, secret_key.decrypt(self.float_n1 < self.float_n2))
 
-        # 整数相等测试：经过测试，无明显问题
+        # 整数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.int1 < self.int2 else 0, secret_key.decrypt(self.int_n1 < self.int_n2))
 
     # TODO 安全小于等于协议测试
@@ -247,8 +251,8 @@ class SMPCPTest(unittest.TestCase):
         """
         安全小于等于协议
         """
-        # 浮点数相等测试：经过测试，无明显问题
+        # 浮点数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.float1 <= self.float2 else 0, secret_key.decrypt(self.float_n1 <= self.float_n2))
 
-        # 整数相等测试：经过测试，无明显问题
+        # 整数相等测试：经过测试，极少数情况下，浮点数会影响结果
         self.assertEqual(1 if self.int1 <= self.int2 else 0, secret_key.decrypt(self.int_n1 <= self.int_n2))
