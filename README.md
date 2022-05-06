@@ -394,6 +394,8 @@ class SMPCPTest(unittest.TestCase):
 
 作者：沈阳航空航天大学 数据安全与隐私计算课题组 施展
 
+Github: https://github.com/shine813/
+
 邮箱：phe.zshi@gmail.com
 
 如有问题，可及时联系作者
