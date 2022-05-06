@@ -4,7 +4,6 @@
 /__pycache__
 /.idea
 /build
-/dist
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
