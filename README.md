@@ -53,11 +53,7 @@
 
 安全依赖环境: `pip install -r requirements.txt`
 
-安装`smpcp`库: `pip install smpcp`
-
-引入`phe`库: `import phe`
-
-引入`smpcp`库: `from smpcp import CloudPlatform, CloudPlatformThird, SecureMultiPartyComputationProtocol`
+安装`smpcp`库：`pip install smpcp`
 
 ### 生成密钥
 
