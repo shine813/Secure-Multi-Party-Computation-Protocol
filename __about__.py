@@ -9,7 +9,7 @@ __title__ = "smpcp"
 __summary__ = "Secure Multi-Party Computation Protocol base on Partially Homomorphic Encryption for Python"
 __uri__ = "https://github.com/shine813/Secure-Multi-Party-Computation-Protocol/"
 
-__version__ = "1.0.2"
+__version__ = "2.0.0"
 
 __author__ = "Zhan Shi"
 __email__ = "phe.zshi@gmail.com"
