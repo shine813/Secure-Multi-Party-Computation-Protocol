@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-Author: Zhan Shi
-Time  : 2022/5/4 17:42
+@Version: 0.0.1
+@Project: Secure-Multi-Party-Computation-Protocol
+@Author: Zhan Shi
+@Time  : 2022/5/4 17:42
+@File: test.py
+@License: MIT
 """
 import json
 import os
