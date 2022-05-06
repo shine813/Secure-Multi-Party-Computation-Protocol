@@ -4,9 +4,9 @@
 @Version: 1.0.1
 @Project: Secure-Multi-Party-Computation-Protocol
 @Author: Zhan Shi
-@Time  : 2022/5/5 12:17
+@Time  : 2022/5/6 13:26
 @File: __init__.py
 @License: MIT
 """
 
-__name__ = 'Secure-Multi-Party-Computation-Protocol'
+__name__ = 'smpcp'

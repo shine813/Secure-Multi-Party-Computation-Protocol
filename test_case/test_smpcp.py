@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-@Version: 1.0.0
+@Version: 1.0.1
 @Project: Secure-Multi-Party-Computation-Protocol
 @Author: Zhan Shi
 @Time  : 2022/5/4 15:54
@@ -15,7 +15,7 @@ import unittest
 import gmpy2
 import phe
 
-from smpcp import CloudPlatform, CloudPlatformThird, SecureMultiPartyComputationProtocol
+from smpcp.smpcp import CloudPlatform, CloudPlatformThird, SecureMultiPartyComputationProtocol
 
 sys.path.append("test_case/")  # 添加测试文件路径
 
