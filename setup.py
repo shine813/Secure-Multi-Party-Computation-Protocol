@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-@Version: 0.0.1
+@Version: 1.0.0
 @Project: Secure-Multi-Party-Computation-Protocol
 @Author: Zhan Shi
 @Time  : 2022/5/6 11:43
@@ -16,7 +16,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="smpcp",
-    version="0.0.1",
+    version="1.0.0",
     author="Zhan Shi",
     author_email="phe.zshi@gmail.com",
     description="Secure Multi-Party Computation Protocol base on Partially Homomorphic Encryption for Python",
