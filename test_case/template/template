@@ -7281,7 +7281,6 @@
             var chart = echarts.init(document.getElementById("echarts-map-chart"));
             chart.setOption(option);
         }
-
         pie();
     });
 
