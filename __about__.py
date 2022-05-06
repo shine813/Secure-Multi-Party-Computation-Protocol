@@ -1,6 +1,9 @@
 from __future__ import absolute_import, division, print_function
 
-__all__ = ["__title__", "__summary__", "__uri__", "__version__", "__author__", "__email__"]
+__all__ = [
+    "__title__", "__summary__", "__uri__",
+    "__version__", "__author__", "__email__"
+]
 
 __title__ = "smpcp"
 __summary__ = "Secure Multi-Party Computation Protocol base on Partially Homomorphic Encryption for Python"
