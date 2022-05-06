@@ -13,7 +13,7 @@
 
 安全多方计算起源于1982年[姚期智](https://baike.baidu.com/item/姚期智)的百万富翁问题。后来Oded Goldreich有比较细致系统的论述。
 
-基于phe库 (Paillier Homomorphic Encryption) 的安全多方计算协议实现，包含：
+基于[phe](https://github.com/data61/python-paillier)库 (Paillier Homomorphic Encryption) 的安全多方计算协议实现，包含：
 
 - 安全乘法协议
 - 安全除法协议
