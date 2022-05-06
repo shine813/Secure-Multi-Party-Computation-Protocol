@@ -386,7 +386,7 @@ class SMPCPTest(unittest.TestCase):
         self.assertEqual(1 if self.int1 <= self.int2 else 0, secret_key.decrypt(self.int_n1 <= self.int_n2))
 ```
 
-详见`test_case/test_smpcp.py`。
+详见`test_case/test_smpcp.py`, 项目报告依赖基于`unittest`的[项目](https://github.com/TesterlifeRaymond/BeautifulReport)`test_case/BeautifulReport.py`。
 
 ---
 
