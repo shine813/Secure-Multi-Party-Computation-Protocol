@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-@Version: 0.0.1
+@Version: 1.0.0
 @Project: Secure-Multi-Party-Computation-Protocol
 @Author: Zhan Shi
 @Time  : 2022/5/1 09:35
