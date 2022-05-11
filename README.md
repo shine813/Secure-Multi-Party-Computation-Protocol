@@ -400,6 +400,8 @@ class SMPCPTest(unittest.TestCase):
 
 Github: https://github.com/shine813/
 
+Pypi: https://pypi.org/project/smpcp/
+
 邮箱：phe.zshi@gmail.com
 
 如有问题，可及时联系作者
