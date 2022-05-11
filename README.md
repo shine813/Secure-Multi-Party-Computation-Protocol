@@ -2,6 +2,12 @@
 
 
 ---
+<a href="https://github.com/shine813/Secure-Multi-Party-Computation-Protocol"><img src="https://img.shields.io/badge/smpcp-2.0.2-green"></a>
+
+
+<a href="https://pypi.org/project/smpcp/"><img src="https://img.shields.io/badge/pypi-2.0.2-blue" alt="pypi"></a>
+
+---
 
 ## 项目背景
 
