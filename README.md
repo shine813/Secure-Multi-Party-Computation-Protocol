@@ -1,7 +1,5 @@
 <h1 align='center' >安全多方计算协议</h1>
 
-
----
 <a href="https://github.com/shine813/Secure-Multi-Party-Computation-Protocol"><img src="https://img.shields.io/badge/smpcp-2.0.2-green"></a>
 
 
