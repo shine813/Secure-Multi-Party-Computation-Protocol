@@ -13,7 +13,7 @@ import phe
 from smpcp.smpcp import CloudPlatform, CloudPlatformThird, SecureMultiPartyComputationProtocol
 
 # TODO 生成密钥
-public_key, secret_key = phe.generate_paillier_keypair(n_length=2048)
+public_key, secret_key = phe.generate_paillier_keypair(n_length=128)
 # TODO 定义云服务器
 cloud1 = CloudPlatform(public_key=public_key)
 cloud2 = CloudPlatformThird(public_key=public_key, secret_key=secret_key)
@@ -45,9 +45,9 @@ if __name__ == '__main__':
         bit.append(secret_key.decrypt(v))
     assert bit == [1, 1, 0]
     # TODO 安全二进制与协议
-    assert secret_key.decrypt(b1 | b2) == 1
+    assert secret_key.decrypt(b1 & b2) == 1
     # TODO 安全二进制或协议
-    assert secret_key.decrypt(b1 & b2) == 0
+    assert secret_key.decrypt(b1 | b2) == 0
     # TODO 安全二进制非协议
     assert secret_key.decrypt(b1.bit_not()) == 0
     # TODO 安全二进制异或协议
